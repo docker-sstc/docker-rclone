@@ -10,4 +10,8 @@ RUN apk add --no-cache --virtual=.build-deps wget \
     && rm rclone.zip \
     && rm -fr /tmp/rclone-v$RCLONE_VERSION-linux-amd64
 
+# deps
+RUN apk add --no-cache \
+    ca-certificates
+
 CMD ["rclone"]
