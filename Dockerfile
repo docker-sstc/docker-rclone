@@ -1,4 +1,4 @@
-FROM alpine:3.10
+FROM alpine:3.11.6
 
 ENV RCLONE_VERSION=1.48.0
 
