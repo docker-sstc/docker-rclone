@@ -1,5 +1,7 @@
 # docker-rclone
 
+Deprecated. There is offcial [docker image](https://hub.docker.com/r/rclone/rclone)
+
 ## Usage
 
 ```sh
